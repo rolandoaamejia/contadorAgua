@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".molde_lista"
+            android:label="@string/title_activity_molde_lista"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".login_register"
             android:label="@string/title_activity_login_register"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activityloginregister"
             android:label="@string/title_activity_activityloginregister"
