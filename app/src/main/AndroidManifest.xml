@@ -10,9 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".login_register"
+            android:label="@string/title_activity_login_register"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activityloginregister"
+            android:label="@string/title_activity_activityloginregister"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity_main2"
             android:label="@string/title_activity_main2"
