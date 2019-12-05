@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">contadorAgua</string>
+    <string name="title_activity_main2">activity_main2</string>
 </resources>
