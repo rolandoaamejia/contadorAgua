@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "708370752228",
+    "firebase_url": "https://rolo-70145.firebaseio.com",
+    "project_id": "rolo-70145",
+    "storage_bucket": "rolo-70145.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708370752228:android:98e13bdba72b9b78a302f1",
+        "android_client_info": {
+          "package_name": "com.example.contadoragua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708370752228-tilddnddsa40mmcilhapt7ijr149bt76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDyl0UocM2XzN9gRaxQIQTdaH7FzVks3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708370752228-tilddnddsa40mmcilhapt7ijr149bt76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708370752228:android:d7dc48a8e27389ada302f1",
+        "android_client_info": {
+          "package_name": "com.rolo.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708370752228-tilddnddsa40mmcilhapt7ijr149bt76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDyl0UocM2XzN9gRaxQIQTdaH7FzVks3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708370752228-tilddnddsa40mmcilhapt7ijr149bt76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

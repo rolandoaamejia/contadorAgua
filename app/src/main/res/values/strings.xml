@@ -1,7 +1,16 @@
 <resources>
-    <string name="app_name">contadorAgua</string>
-    <string name="title_activity_main2">activity_main2</string>
-    <string name="title_activity_activityloginregister">activityloginregister</string>
-    <string name="title_activity_login_register">login_register</string>
-    <string name="title_activity_molde_lista">molde_lista</string>
+    <string name="app_name">Daily Water</string>
+    <string name="titulo_login">Ingrese su informacion Personaliza tu plan de hidratación</string>
+    <string name="genero">Género</string>
+    <string name="peso">Peso en kg</string>
+    <string name="msg">Estos datos seran almacenados en linea.</string>
+    <string name="Buttton">Siguiente</string>
+    <string name="M">Masculino</string>
+    <string name="F">Femenino</string>
+    <string name="Objetivo">0ml</string>
+    <string name="title_activity_login">Iniciar sesión</string>
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_register">Registrarse</string>
 </resources>

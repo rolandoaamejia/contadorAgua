@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.contadoragua">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,33 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".molde_lista"
-            android:label="@string/title_activity_molde_lista"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
-            android:name=".login_register"
-            android:label="@string/title_activity_login_register"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activityloginregister"
-            android:label="@string/title_activity_activityloginregister"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Main2Activity"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".activity_main2"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginRegisterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity" />
     </application>
-
 </manifest>
